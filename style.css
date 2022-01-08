@@ -10,3 +10,90 @@ body {
 }
 
 /* Add styles here! */
+
+/* header {
+  margin-top: 96px;
+  margin-bottom: 48px;
+  width: 70%;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.intro-chunk {
+  padding: 96px 0;
+  max-width: 400px;
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+main {
+  padding: 96px 0;
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0, 0%, 41%);
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  margin: -24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.intro-chunk strong {
+  color: green;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  margin-left: -32px;
+  margin-top: -16px;
+  padding: 16px 32px;
+  width: fit-content;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+/* @media (max-width: 1025px) {
+  header {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .intro-chunk {
+    width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-chunk {
+    width: 100%;
+  }
+} */
